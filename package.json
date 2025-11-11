@@ -1,0 +1,15 @@
+{
+  "name": "social-analytics-stackblitz",
+  "private": true,
+  "workspaces": ["server", "web"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w server\" \"npm run dev -w web\"",
+    "build": "npm run build -w server && npm run build -w web"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "stackblitz": {
+    "startCommand": "npm run dev"
+  }
+}
