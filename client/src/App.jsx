@@ -1,0 +1,1 @@
+export default function App(){return <div style={{padding:20}}>Hooked up! Replace this file with your canvas App.jsx.</div>;}
