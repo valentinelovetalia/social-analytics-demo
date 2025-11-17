@@ -1,0 +1,1 @@
+/* The full code with axis labels from the canvas */
