@@ -1,0 +1,1 @@
+import React from 'react'; export default function App(){return <div style={{padding:20}}><h1>Social Analytics Dashboard</h1><p>Full version with labeled axes — please paste your canvas App.jsx code here.</p></div>;}
